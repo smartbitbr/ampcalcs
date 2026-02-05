@@ -973,7 +973,7 @@ def main():
                 new_vbe = st.number_input("Vbe típico (V)", min_value=0.5, max_value=1.0, value=0.65, step=0.01)
                 new_vceo = st.number_input("Vceo (V)", min_value=0.0, max_value=1000.0, value=0.0)
                 new_icmax = st.number_input("Ic max (A)", min_value=0.0, max_value=100.0, value=0.0)
-                new_pd = st.number_input("Pd (W)", min_value=0.0, max_value=500.0, value=0.0)
+                new_pd = st.number_input("Pd (W)", min_value=0.0, max_value=3000.0, value=0.0)
                 new_ft = st.number_input("Ft (MHz)", min_value=0.0, max_value=1000.0, value=0.0)
             
             new_notes = st.text_area("Notas")
